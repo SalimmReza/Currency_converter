@@ -42,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
                 android:padding="20dp"
-                android:hint="20"
+                android:hint="FROM"
                 android:textSize="70sp"
                 android:layout_marginStart="20dp"
                 android:textColorHint="#ffffff"
@@ -82,12 +82,12 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
             android:orientation="horizontal">
-            <EditText
+            <TextView
                 android:id="@+id/second_edit_id"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
-                android:hint="20"
+                android:hint="TO"
                 android:textSize="70sp"
                 android:layout_marginStart="20dp"
                 android:textColorHint="@color/black"
@@ -118,6 +118,7 @@
             android:text="Calculate"
             android:textColor="@color/black"
             android:textSize="20dp"
+            android:onClick="calculate"
             android:backgroundTint="@color/red"
             android:layout_marginTop="50dp"/>
 
